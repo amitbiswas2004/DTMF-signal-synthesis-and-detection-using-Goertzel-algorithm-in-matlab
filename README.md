@@ -32,4 +32,31 @@ For example:
 These tones are recorded via microphone and analyzed in MATLAB. The Goertzel algorithm calculates the signal's DFT magnitudes at the eight DTMF frequencies. The **two frequencies with the highest magnitudes** are matched against a standard DTMF keypad matrix:
 <img width="623" height="201" alt="image" src="https://github.com/user-attachments/assets/dbc86bfc-b480-4670-838c-cdfefad7d3fd" />
 
+## 🧪 Experimental Demonstration
 
+### ▶️ Step-by-Step Execution
+
+1. **Run the MATLAB code**  
+2. **Open your phone's dial pad**
+3. **Press a single digit (e.g., 3) within 1 second**  
+4. The Goertzel algorithm processes the audio and displays the decoded result.
+
+### 🧾 Output in Command Window
+
+Here’s a sample output when digit **'3'** is pressed:
+
+![Command Output](https://github.com/user-attachments/assets/9f2ba994-01e8-4e14-9737-5603fe933bd8)
+
+### 📈 Frequency Spectrum Plot
+
+The magnitude response shows strong peaks at the detected DTMF frequencies — **697 Hz** and **1477 Hz** for digit **'3'**.
+
+![DTMF Frequency Plot](https://github.com/user-attachments/assets/659aefa3-f7e8-4559-9791-9c0338fd5aa9)
+
+---
+
+
+
+---
+
+---
