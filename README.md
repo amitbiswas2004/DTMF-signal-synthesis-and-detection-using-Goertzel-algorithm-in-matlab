@@ -30,4 +30,6 @@ For example:
 - Pressing the key **'5'** produces a tone containing both **770 Hz and 1336 Hz**.
 
 These tones are recorded via microphone and analyzed in MATLAB. The Goertzel algorithm calculates the signal's DFT magnitudes at the eight DTMF frequencies. The **two frequencies with the highest magnitudes** are matched against a standard DTMF keypad matrix:
+<img width="623" height="201" alt="image" src="https://github.com/user-attachments/assets/dbc86bfc-b480-4670-838c-cdfefad7d3fd" />
+
 
